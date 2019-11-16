@@ -1,6 +1,7 @@
 
 // given a rectangular matrix of characters ,add a border of asterisks(*) to it
 
+// solution 1
 function addBorder(pic) {
     const lenghtOfWall = pic[0].length + 2;
     let wall = '';
