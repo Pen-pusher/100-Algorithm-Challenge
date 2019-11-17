@@ -16,5 +16,4 @@ function absoluteValuesSumMinization(a) {
 }
 
 
-
 console.log(absoluteValuesSumMinization([2,4,7]));
