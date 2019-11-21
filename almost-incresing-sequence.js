@@ -1,3 +1,5 @@
+// given a sequence of array,determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
+
 function almostIncreasingSequence(sequence){
  let count = 0
  for (let i = 0 ; i < sequence.length; i++){
