@@ -1,3 +1,8 @@
+// for a=[50,60,60,45,70],the output should be alternate(a)=[180, 105]
+
+
+
+
 function alternate(a) {
     let even=0;
     let odd = 0;
