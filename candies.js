@@ -7,3 +7,4 @@ function candies(n, m) {
     return candy * n
 }
 
+console.log(candies(3, 10))
