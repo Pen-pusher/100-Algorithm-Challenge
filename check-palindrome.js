@@ -1,8 +1,11 @@
-function checkPalindrome(inputString){
-    cost originalWord = inputString.toLowerCase();
-    const reverseWord = originalWord.split('').reverse().join('');
+function checkPalindrome(inputString) {
+  const originalWord = inputString.toLowerCase();
+  const reverseWord = originalWord
+    .split("")
+    .reverse()
+    .join("");
 
-    return originalWord === reverseWrord();
+  return originalWord === reverseWord;
 }
 
-console.log(checkPalindrome('aabaa'))
+console.log(checkPalindrome("aabaa"));
